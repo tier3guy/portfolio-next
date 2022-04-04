@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Send+Flowers&display=swap');
+
+
+:root{
+
+  /* Font families */
+  --font-logo : 'Send Flowers';
+  --font-bold : 'Bebas Neue';
+  --font-main : 'Poppins';
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  font-family: var(--font-main);
+  overflow-x: hidden;
 }
 
 * {

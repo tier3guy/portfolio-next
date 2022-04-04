@@ -1,0 +1,20 @@
+.navbar{
+  background: #FFFFF0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(255, 255, 240, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  z-index: 999;
+}
+
+.links{
+  color: #065666;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mail{
+  margin: 0px;
+  font-size: 15px;
+}
