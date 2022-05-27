@@ -13,7 +13,7 @@ const About = () => {
       
       <Text as='h6' fontSize='1.3em' marginTop='1em'>Why did I choose Engineering?</Text>
 
-      <audio controls src='https://www.mboxdrive.com/3%20idiots%20film%20dialogue%20Degree%20nahi%20hogi%20to%20naukri%20nahi%20hogi%20[TubeRipper.com].mp3'/>
+      <audio controls src='https://www.mboxdrive.com/3 idiots film dialogue Degree nahi hogi to naukri nahi hogi [TubeRipper.com].mp3'/>
 
       <Text w='80%' as='p' fontSize='1.2em' className={styles.contentText}>So, if you had liked my story. You can connect with @LinkedIn</Text>
       

@@ -1,0 +1,60 @@
+.footer {
+  position: relative;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  background: transparent;
+  padding: 20px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  border: none;
+  outline: none;
+  transition: all 0.2s;
+  border-bottom: 1px solid #0656665d;
+  margin-bottom: 20px;
+  padding-left: 0em;
+  width: 85%;
+  color: #C53030;
+  margin-bottom: 1em;
+}
+
+.input:focus, .input:active{
+  border-bottom: 2px solid #065666;
+}
+
+.textArea{
+  width: 85%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.2em;
+  font-family: var(--font-main);
+  border-bottom: 1px solid #0656665d;
+  padding-bottom:10px;
+  transition: all 0.2s;
+  color: #C53030;
+}
+
+.textArea:focus, .textArea:active{
+  border-bottom: 2px solid #065666;
+}
+
+.btn{
+  padding: 1.1em 7em;
+  font-size: 1.2em;
+  background: #065666;
+  color: #fffff0;
+  margin: 1em 0;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  transition: all 0.2s;
+}
+
+.btn:hover{
+  background: #065666e7;
+  color: #000000;
+}

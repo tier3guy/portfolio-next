@@ -4,6 +4,7 @@ import Hero from '../Components/hero';
 import About from '../Components/about';
 import Projects from '../Components/projects';
 import Education from '../Components/education';
+import Footer from '../Components/footer';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About/>
       <Projects/>
       <Education/>
+      <Footer/>
     </div>
   )
 }
