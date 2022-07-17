@@ -1,12 +1,15 @@
 import React from 'react';
-import {Box, Text, Spacer, Flex} from '@chakra-ui/react';
+import {Box, Text, Spacer, Flex, useMediaQuery} from '@chakra-ui/react';
 import Card from './card';
-import styles from '../styles/Card.module.css';
+import styles from '../styles/Projects.module.css';
 
 const projects = () => {
+
+  const [isMobile] = useMediaQuery("(max-width: 600px)");
+
   return (
-    <Box minH='100vh' width='100vw' bgColor='whiteAlpha.300' pt='8em' p='4em'>
-      <Flex>
+    <Box bgColor='whiteAlpha.300' className={styles.container}>
+      <Flex style={styles.Responsive} direction={isMobile? 'column' : 'row'}>
 
         <Box>
           <Text fontSize='4.3em' mb='0' style={{color: '#065666'}}>Projects</Text>
@@ -14,7 +17,7 @@ const projects = () => {
           <Text fontSize='1.2em' style={{color: '#C53030'}} m='0'>your theoritical knowledge</Text>
         </Box>
         <Spacer/>
-        <a href={"https://github.com/tier3guy"} className={styles.anchor}><Text fontSize='1.1em' style={{color: '#C53030'}} mt='6em'> {'<'} Explore more works {'/>'} </Text></a>
+        <a href={"https://github.com/tier3guy"} className={styles.anchor}><Text fontSize='1.1em' style={{color: '#C53030'}} mt={isMobile? '2em' : '6em'}> {'<'} Explore Github Profile {'/>'} </Text></a>
             
       </Flex>
 
