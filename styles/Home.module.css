@@ -17,3 +17,11 @@
   color: #C53030;
   font-weight: 300;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .image{
+    margin-top: 2em !important; 
+    size: 100% !important;
+  }
+}
