@@ -12,7 +12,7 @@ const Hero = () => {
           <Text className={styles.headerText}>Hey There,</Text>
           <Text className={styles.headerText}>I ' am Avinash</Text>
 
-          <Text as='h3' className={styles.textemail} marginTop='3em'>avinashgupta.work</Text>
+          <Text as='h3' className={styles.textemail} marginTop='3em'>avinashgupta.works</Text>
           <h2 className={styles.textemail}>@gmail.com</h2>
         </Box>
 

@@ -6,3 +6,7 @@
   margin: 3em 0;
   border-radius: 7px;
 }
+
+.anchor{
+  text-decoration: none;
+}
